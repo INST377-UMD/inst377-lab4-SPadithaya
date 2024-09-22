@@ -1,0 +1,16 @@
+.content-left {
+    background-color: rgb(178, 167, 235);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#content-right {
+    background-color: rgb(178, 167, 235);
+    color: black;
+    padding: 10px;
+    margin-right: 10 px;
+    width: 25%;
+    float: right;
+}
