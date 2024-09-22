@@ -14,22 +14,21 @@
         </form>
         </div>
         <div class="content-left">
+            <input type="submit" value="Change Color" onclick="changeColor()" id="color">
+        </div>
+        <div class="content-left">
             <form name="textTest"onsubmit="return(textValidation())">
                 <label>Text Tester</label>
                 <input type="text" placeholder="Text" id="textValidate">
                 <input type="submit" value="Validate Text">
             </form>
         </div>
-        <br>
-        
-        <div class="content-right">
-            <aside class="content-right">
-                <input type="submit" value="Add Text" onclick="addText()" id="text">
-                </aside>
-                <aside class="content-right">
-                    <input type="submit" value="Change Color" onclick="changeColor()" id="color">
-                </aside>
+     
+        <div class="content-left">
+            <input type="submit" value="Add Text" onclick="addText()" id="text">
         </div>
+
+
         <script type="text/javascript">
             var validation = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
             function formValidation(){
