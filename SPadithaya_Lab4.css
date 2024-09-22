@@ -1,9 +1,14 @@
+body {
+    background-color: rgb(255, 217, 217);
+}
 .content-left {
     background-color: rgb(178, 167, 235);
     color: black;
     padding: 10px;
     margin: 10px;
     border: 2px solid black;
+    width: 25%;
+    text-align: center;
 }
 
 #content-right {
@@ -11,6 +16,20 @@
     color: black;
     padding: 10px;
     margin-right: 10 px;
-    width: 25%;
+    border: 2px solid black;
+    width: 100%;
     float: right;
+    text-align: center;
+}
+
+aside{
+    float: right;
+    background-color: rgb(178, 167, 235);
+    color: black;
+    padding: 10px;
+    margin-right: 10 px;
+    border: 2px solid black;
+    width: 25%;
+    text-align: center;
+
 }

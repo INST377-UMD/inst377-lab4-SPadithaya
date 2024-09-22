@@ -20,9 +20,15 @@
                 <input type="submit" value="Validate Text">
             </form>
         </div>
-
+        <br>
+        
         <div class="content-right">
-            <input type="submit" value="Change Color">
+            <aside class="content-right">
+            <input type="submit" value="Change Color" onclick="changeColor()" id="color">
+            </aside>
+            <aside class="content-right">
+                <input type="submit" value="Add Text" onclick="addText()" id="text">
+            </aside>
         </div>
         <script type="text/javascript">
             var validation = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
@@ -43,6 +49,17 @@
                     }
 
                     return true;
+            }
+            function changeColor(){
+                if(document.body.style.backgroundColor == 'red') {
+                    const t = document.body.style.backgroundColor = 'pink';
+                } else {
+                    const t = document.body.style.backgroundColor = 'red';
+                }
+            }
+            function addText(){
+                const heading = document.heading;
+                heading.innerText
             }
         </script>
 
