@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 217, 217);
+}
+.content-left {
+    background-color: rgb(178, 167, 235);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+}
+
+aside{
+    float: right;
+    background-color: rgb(178, 167, 235);
+    color: black;
+    padding: 10px;
+    margin-right: 10 px;
+    border: 2px solid black;
+    width: 25%;
+    text-align: center;
+
+}
