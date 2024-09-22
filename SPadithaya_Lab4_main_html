@@ -1,0 +1,24 @@
+<html></html>
+    <head>
+        <title>INST377 - Lab 4 - SPadithaya</title>
+    </head>
+
+    <body>
+        <form name="contactForm" onsubmit="return(formValidation())" action="https://www.google.com">
+            <label>First Name</label>
+            <input type="text" placeholder="Name" id="firstName">
+            <br>
+
+            <input type="submit">
+        </form>
+
+        <script type="text/javascript">
+            function formValidation(){
+                if (document.contactForm.firstName.value === ""){
+                    alert('Enter your first name!!!')
+                    document.body.style.backgroundColor = 'pink';
+                }
+            }
+        </script>
+
+</html>
