@@ -5,7 +5,7 @@
     </head>
 
     <body>
-        <h1> INST377 - Lab 4 - Sharanya Padithaya</h1>
+        <h1> INST377 - Lab 4 - HTML/CSS/JavaScript</h1>
         <div class="content-left">
         <form name="contactForm" onsubmit="return(formValidation())">
             <label>First Name</label>
@@ -24,11 +24,11 @@
         
         <div class="content-right">
             <aside class="content-right">
-            <input type="submit" value="Change Color" onclick="changeColor()" id="color">
-            </aside>
-            <aside class="content-right">
                 <input type="submit" value="Add Text" onclick="addText()" id="text">
-            </aside>
+                </aside>
+                <aside class="content-right">
+                    <input type="submit" value="Change Color" onclick="changeColor()" id="color">
+                </aside>
         </div>
         <script type="text/javascript">
             var validation = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
@@ -52,14 +52,14 @@
             }
             function changeColor(){
                 if(document.body.style.backgroundColor == 'red') {
-                    const t = document.body.style.backgroundColor = 'pink';
+                    const t = document.body.style.backgroundColor = 'blue';
                 } else {
                     const t = document.body.style.backgroundColor = 'red';
                 }
             }
             function addText(){
-                const heading = document.heading;
-                heading.innerText
+                const heading = document.querySelector('h1');
+                heading.innerText += "- Adding Text";
             }
         </script>
 
